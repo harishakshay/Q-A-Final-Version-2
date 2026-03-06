@@ -1,0 +1,4 @@
+# Add required packages for doc_converter here
+# Example:
+# pdfminer.six
+# markdown

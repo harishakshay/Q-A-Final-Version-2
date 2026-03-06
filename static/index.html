@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document QA | RAG Dashboard</title>
+    <meta name="description" content="Document Question Answering Bot powered by RAG — ChromaDB, Neo4j, and Groq LLM.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-file-search"></i>
+                <span>Doc QA</span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active" data-section="overview"><i class="fas fa-chart-line"></i> System Overview</li>
+                    <li data-section="content"><i class="fas fa-folder-open"></i> Documents</li>
+                    <li data-section="data-management"><i class="fas fa-upload"></i> Upload Documents</li>
+                    <li data-section="semantic-explorer"><i class="fas fa-project-diagram"></i> Retrieval Explorer</li>
+                    <li data-section="graph-explorer"><i class="fas fa-network-wired"></i> Knowledge Graph</li>
+                    <li data-section="pipeline-status"><i class="fas fa-stream"></i> AI Pipeline</li>
+                    <li data-section="insights"><i class="fas fa-comment-dots"></i> Question Answering</li>
+                </ul>
+            </nav>
+            <div class="status-panel">
+                <h4>System Status</h4>
+                <ul id="status-list">
+                    <li><span class="status-dot" id="chromadb-status"></span> ChromaDB</li>
+                    <li><span class="status-dot" id="neo4j-status"></span> Neo4j</li>
+                    <li><span class="status-dot" id="groq-status"></span> Groq LLM</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content-area">
+            <!-- Header -->
+            <header>
+                <h2 id="section-title">System Overview</h2>
+                <div class="actions" id="header-actions">
+                    <!-- Actions injected per section -->
+                </div>
+            </header>
+
+            <!-- System Overview Section -->
+            <section id="overview" class="dashboard-section active">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-file-alt"></i></div>
+                        <h3>Total Documents</h3>
+                        <p id="stat-total-docs">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-puzzle-piece"></i></div>
+                        <h3>Total Chunks Generated</h3>
+                        <p id="stat-total-chunks">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-vector-square"></i></div>
+                        <h3>Total Embeddings</h3>
+                        <p id="stat-embeddings">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-share-alt"></i></div>
+                        <h3>Graph Nodes</h3>
+                        <p id="stat-graph-nodes">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-link"></i></div>
+                        <h3>Graph Relationships</h3>
+                        <p id="stat-graph-rels">0</p>
+                    </div>
+                </div>
+                <div class="knowledge-explorer">
+                    <!-- Global Knowledge Graph Visualization -->
+                    <div class="charts-centerpiece">
+                        <div class="panel-card chart-panel">
+                            <div class="card-header">
+                                <h4><i class="fas fa-chart-pie"></i> System Analytics</h4>
+                                <div class="graph-controls">
+                                    <span class="badge badge-ready">Live Data</span>
+                                </div>
+                            </div>
+                            <div class="charts-row">
+                                <div class="chart-cell">
+                                    <div class="chart-cell-title">Entity Distribution</div>
+                                    <div class="chart-canvas-wrap">
+                                        <canvas id="entityDistChart"></canvas>
+                                    </div>
+                                </div>
+                                <div class="chart-cell">
+                                    <div class="chart-cell-title">Top Entities</div>
+                                    <div class="chart-canvas-wrap">
+                                        <canvas id="clusterChart"></canvas>
+                                    </div>
+                                </div>
+                                <div class="chart-cell">
+                                    <div class="chart-cell-title">System Composition</div>
+                                    <div class="chart-canvas-wrap">
+                                        <canvas id="compositionChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Horizontal Insights Tier -->
+                    <div class="insights-grid">
+                        <div class="panel-card">
+                            <h4><i class="fas fa-crown"></i> Influential Knowledge Nodes</h4>
+                            <div id="influential-nodes-list" class="analytics-list">
+                                <p class="loading-text">Analyzing graph centrality...</p>
+                            </div>
+                        </div>
+                        <div class="panel-card">
+                            <h4><i class="fas fa-brain"></i> Knowledge Clusters</h4>
+                            <div id="knowledge-clusters-list" class="analytics-list">
+                                <p class="loading-text">Detecting thematic clusters...</p>
+                            </div>
+                        </div>
+                        <div class="panel-card">
+                            <h4><i class="fas fa-heartbeat"></i> Graph Health</h4>
+                            <div id="graph-health-metrics" class="health-metrics-container">
+                                <p class="loading-text">Calculating graph density...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documents Section -->
+            <section id="content" class="dashboard-section">
+                <div class="data-table-container">
+                    <div id="doc-list-wrapper">
+                        <p style="padding:24px;color:var(--text-secondary)">Loading documents...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Upload Documents Section -->
+            <section id="data-management" class="dashboard-section">
+                <div class="upload-dropzone" id="upload-dropzone"
+                    onclick="document.getElementById('data-input').click()">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Upload Documents</h3>
+                    <p>Supported formats: <strong>.pdf</strong>, <strong>.txt</strong>, <strong>.md</strong></p>
+                    <input type="file" id="data-input" accept=".txt,.pdf,.md" hidden multiple>
+                </div>
+
+                <div class="data-table-container" style="margin-top:28px;">
+                    <div class="data-controls-bar">
+                        <span class="section-label"><i class="fas fa-list"></i> Uploaded Files</span>
+                        <button class="btn btn-secondary btn-sm" onclick="loadDataList()">
+                            <i class="fas fa-sync"></i> Refresh
+                        </button>
+                    </div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Filename</th>
+                                <th>File Type</th>
+                                <th>Processing Status</th>
+                                <th>Date Added</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-list-body">
+                            <tr>
+                                <td colspan="5" style="text-align:center;padding:24px;color:var(--text-secondary)">No
+                                    files uploaded yet.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Retrieval Explorer Section -->
+            <section id="semantic-explorer" class="dashboard-section">
+                <div id="explorer-stats-summary"></div>
+                <div class="data-table-container" style="margin-top: 24px;">
+                    <div class="data-controls-bar">
+                        <span class="section-label"><i class="fas fa-project-diagram"></i> Semantic Retrieval
+                            Explorer</span>
+                    </div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Chunk ID</th>
+                                <th>Document</th>
+                                <th>Content Preview</th>
+                                <th>Status</th>
+                                <th>Health Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="semantic-explorer-body">
+                            <tr>
+                                <td colspan="5" style="text-align:center;padding:24px;color:var(--text-secondary)">No
+                                    chunks found.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Knowledge Graph Section -->
+            <section id="graph-explorer" class="dashboard-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Concepts</h3>
+                        <p id="graph-stat-concepts">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Persons</h3>
+                        <p id="graph-stat-persons">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Tools</h3>
+                        <p id="graph-stat-tools">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Rels</h3>
+                        <p id="graph-stat-total-rels">0</p>
+                    </div>
+                </div>
+                <div class="data-table-container" style="margin-top: 24px;">
+                    <div class="data-controls-bar">
+                        <span class="section-label"><i class="fas fa-brain"></i> Top Connected Entities</span>
+                    </div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Entity Name</th>
+                                <th>Type</th>
+                                <th>Connectivity</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="graph-entities-body">
+                            <tr>
+                                <td colspan="4" style="text-align:center;padding:24px;">Loading graph data...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- AI Pipeline Section -->
+            <section id="pipeline-status" class="dashboard-section">
+                <div class="pipeline-visualizer">
+                    <div class="pipeline-step success" id="step-ingest">
+                        <div class="step-icon"><i class="fas fa-file-import"></i></div>
+                        <div class="step-label">Ingestion</div>
+                        <div class="step-status">Active</div>
+                    </div>
+                    <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="pipeline-step success" id="step-chunk">
+                        <div class="step-icon"><i class="fas fa-scissors"></i></div>
+                        <div class="step-label">Chunking</div>
+                        <div class="step-status">Active</div>
+                    </div>
+                    <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="pipeline-step success" id="step-embed">
+                        <div class="step-icon"><i class="fas fa-microchip"></i></div>
+                        <div class="step-label">Embedding</div>
+                        <div class="step-status">Active</div>
+                    </div>
+                    <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="pipeline-step success" id="step-graph">
+                        <div class="step-icon"><i class="fas fa-project-diagram"></i></div>
+                        <div class="step-label">Graph Building</div>
+                        <div class="step-status">Active</div>
+                    </div>
+                </div>
+
+                <div class="data-table-container" style="margin-top: 24px;">
+                    <div class="data-controls-bar">
+                        <span class="section-label"><i class="fas fa-terminal"></i> Pipeline Health Summary</span>
+                    </div>
+                    <div id="pipeline-summary-content" style="padding: 24px;">
+                        <p>Total documents processed: <strong id="pipe-total-docs">0</strong></p>
+                        <p>Average chunks per doc: <strong id="pipe-avg-chunks">0</strong></p>
+                        <p>Graph consistency: <strong style="color:var(--success)">Verified</strong></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Question Answering Section -->
+            <section id="insights" class="dashboard-section">
+                <div class="chat-container">
+                    <div class="chat-welcome" id="chat-welcome">
+                        <i class="fas fa-comment-dots chat-logo"></i>
+                        <h1>Ask Questions from Your Documents</h1>
+                        <p class="chat-subtitle">Powered by Retrieval-Augmented Generation (RAG)</p>
+                        <div class="example-queries">
+                            <span class="example-chip" onclick="fillQuery(this)">What is the refund policy?</span>
+                            <span class="example-chip" onclick="fillQuery(this)">Summarize the main points</span>
+                            <span class="example-chip" onclick="fillQuery(this)">What are the key findings?</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-results" id="chat-results"></div>
+
+                    <div class="search-wrapper">
+                        <div class="search-bar-container">
+                            <textarea id="ai-search-input" placeholder="Ask a question about your documents..."
+                                rows="1"></textarea>
+                            <button id="btn-ai-search" class="btn-send" title="Ask">
+                                <i class="fas fa-arrow-up"></i>
+                            </button>
+                        </div>
+                        <small class="search-disclaimer">Answers are generated from your uploaded documents
+                            only.</small>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Notifications -->
+    <div id="notification-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

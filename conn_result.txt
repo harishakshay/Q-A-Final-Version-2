@@ -1,0 +1,236 @@
+Total chunks: 114
+
+================================================================================
+SECTION 1: SHARED ENTITY CONNECTIVITY
+================================================================================
+
+--- Entity Bridge Power (entities that connect the most chunks) ---
+  Time Series: connects 21 chunks
+  Seasonality: connects 12 chunks
+  Net Promoter Score: connects 11 chunks
+  Reservation Price: connects 10 chunks
+  ARIMA: connects 10 chunks
+  Sprint: connects 8 chunks
+  Customer Experience: connects 8 chunks
+  Customer Loyalty: connects 8 chunks
+  Exponential Smoothing: connects 8 chunks
+  Competitive Intelligence: connects 7 chunks
+  Stakeholder Alignment: connects 7 chunks
+  Trend Analysis: connects 7 chunks
+  User Story: connects 6 chunks
+  Customer Satisfaction Score: connects 6 chunks
+  Market Entry Strategy: connects 6 chunks
+  Product Backlog: connects 5 chunks
+  Customer Lifetime Value: connects 5 chunks
+  Market Research: connects 5 chunks
+  Customer Retention: connects 5 chunks
+  Stationarity: connects 5 chunks
+  Product-Led Growth: connects 4 chunks
+  Product Roadmap: connects 4 chunks
+  Competitive Analysis: connects 4 chunks
+  Value-Based Pricing: connects 4 chunks
+  First Contact Resolution: connects 4 chunks
+
+--- Chunk Connection Distribution ---
+  Min connections: 0
+  Max connections: 24
+  Avg connections: 10.8
+  Isolated chunks (0 connections): 3
+    - 15_service_quality_000: Service Quality
+    - 18_pricing_strategies_002: Pricing Strategies
+    - 24_psychological_pricing_000: Psychological Pricing
+
+--- Most Connected Chunks (Top 10) ---
+  34_trend_analysis_000: 24 connections via ['Linear', 'Time Series', 'Trend Analysis']
+  34_trend_analysis_001: 24 connections via ['Linear', 'Mann-Kendall Test', 'Time Series', 'Trend Analysis']
+  34_trend_analysis_002: 23 connections via ['Control Chart', 'Statistical Process Control', 'Time Series', 'Trend Analysis']
+  36_moving_average_000: 23 connections via ['Demand Forecasting', 'Simple Moving Average', 'Time Series']
+  36_moving_average_002: 23 connections via ['Demand Forecasting', 'Exponential Moving Average', 'MACD', 'Seasonal Index', 'Seasonality', 'Simple Moving Average', 'Time Series']
+  39_seasonality_000: 23 connections via ['Seasonality', 'Time Series', 'Trend Analysis']
+  40_anomaly_detection_001: 23 connections via ['ARIMA', 'Anomaly Detection', 'Exponential Smoothing', 'Seasonality', 'Time Series']
+  35_forecasting_001: 22 connections via ['ARIMA', 'Exponential Smoothing', 'LSTM', 'LightGBM', 'Prophet', 'Seasonality', 'Stationarity', 'Time Series', 'XGBoost']
+  37_exponential_smoothing_000: 22 connections via ['ARIMA', 'Charles Holt', 'Exponential Smoothing', 'Peter Winters', 'Robert Brown', 'Seasonality', 'Spyros Makridakis', 'Time Series']
+  37_exponential_smoothing_001: 22 connections via ['Exponential Smoothing', 'Time Series']
+
+--- Least Connected Chunks (Bottom 10, excluding isolated) ---
+  05_minimum_viable_product_000: 1 connections via ['Build-Measure-Learn', 'Eric Ries', 'Lean Startup', 'MVP', 'Steve Blank']
+  14_churn_rate_002: 1 connections via ['Churn Rate']
+  19_price_discrimination_001: 2 connections via ['Price Discrimination', 'Volume Discount']
+  20_dynamic_pricing_002: 2 connections via ['Dynamic Pricing']
+  24_psychological_pricing_001: 2 connections via ['Decoy Pricing', 'Premium Pricing', 'Price Anchoring', 'Subscription Pricing']
+  28_swot_analysis_001: 2 connections via ['SWOT Analysis', 'TOWS Matrix']
+  29_porters_five_forces_001: 2 connections via ['Michael Porter', "Porter's Five Forces"]
+  29_porters_five_forces_002: 2 connections via ['Michael Porter', "Porter's Five Forces", 'Value Net Framework']
+  30_segmentation_targeting_positioning_001: 2 connections via ['STP Marketing']
+  32_brand_management_001: 2 connections via ['Brand Architecture', 'Brand Equity', 'Google Cloud']
+
+================================================================================
+SECTION 2: CROSS-DOCUMENT CONNECTIVITY
+================================================================================
+
+  Total document pairs with shared entities: 185
+  Total possible document pairs: 780
+  Cross-document connectivity: 23.7%
+
+--- Most Cross-Linked Documents (Top 10) ---
+  26_market_analysis.pdf: linked to 18 other documents
+  01_product_management.pdf: linked to 16 other documents
+  13_customer_feedback.pdf: linked to 16 other documents
+  02_new_product_development.pdf: linked to 16 other documents
+  11_net_promoter_score.pdf: linked to 15 other documents
+  12_customer_loyalty.pdf: linked to 13 other documents
+  09_customer_satisfaction.pdf: linked to 13 other documents
+  10_customer_experience.pdf: linked to 13 other documents
+  25_market_research.pdf: linked to 12 other documents
+  35_forecasting.pdf: linked to 11 other documents
+
+--- Least Cross-Linked Documents (Bottom 10) ---
+  15_service_quality.pdf: linked to 2 other documents
+  23_freemium.pdf: linked to 4 other documents
+  30_segmentation_targeting_positioning.pdf: linked to 4 other documents
+  06_requirements_engineering.pdf: linked to 5 other documents
+  29_porters_five_forces.pdf: linked to 5 other documents
+  07_user_story.pdf: linked to 6 other documents
+  08_agile_software_development.pdf: linked to 6 other documents
+  28_swot_analysis.pdf: linked to 6 other documents
+  05_minimum_viable_product.pdf: linked to 6 other documents
+  33_time_series.pdf: linked to 7 other documents
+
+--- Strongest Document Pairs (Top 15 by shared entity count) ---
+  09_customer_satisfaction.pdf <-> 11_net_promoter_score.pdf: 6 shared (['Customer Effort Score', 'Customer Experience', 'Customer Loyalty', 'Customer Satisfaction Score', 'Fred Reichheld', 'Net Promoter Score'])
+  35_forecasting.pdf <-> 38_arima_model.pdf: 6 shared (['ARIMA', 'Exponential Smoothing', 'Prophet', 'Seasonality', 'Stationarity', 'Time Series'])
+  07_user_story.pdf <-> 08_agile_software_development.pdf: 5 shared (['Product Backlog', 'Sprint', 'Stakeholder Alignment', 'User Story', 'Velocity'])
+  09_customer_satisfaction.pdf <-> 10_customer_experience.pdf: 5 shared (['Customer Effort Score', 'Customer Experience', 'Customer Loyalty', 'Customer Satisfaction Score', 'Net Promoter Score'])
+  10_customer_experience.pdf <-> 11_net_promoter_score.pdf: 5 shared (['Customer Effort Score', 'Customer Experience', 'Customer Loyalty', 'Customer Satisfaction Score', 'Net Promoter Score'])
+  25_market_research.pdf <-> 26_market_analysis.pdf: 5 shared (['Competitive Intelligence', 'Market Entry Strategy', 'Market Research', 'Reservation Price', 'Total Addressable Market'])
+  33_time_series.pdf <-> 38_arima_model.pdf: 5 shared (['ARIMA', 'Autocorrelation', 'Seasonality', 'Stationarity', 'Time Series'])
+  35_forecasting.pdf <-> 40_anomaly_detection.pdf: 5 shared (['ARIMA', 'Exponential Smoothing', 'LSTM', 'Seasonality', 'Time Series'])
+  09_customer_satisfaction.pdf <-> 12_customer_loyalty.pdf: 4 shared (['Customer Loyalty', 'Customer Retention', 'Net Promoter Score', 'Service Recovery Paradox'])
+  17_pricing.pdf <-> 18_pricing_strategies.pdf: 4 shared (['Cost-Based Pricing', 'Premium Pricing', 'Reservation Price', 'Value-Based Pricing'])
+  10_customer_experience.pdf <-> 16_customer_support.pdf: 4 shared (['Average Handle Time', 'Customer Experience', 'Customer Satisfaction Score', 'First Contact Resolution'])
+  35_forecasting.pdf <-> 36_moving_average.pdf: 4 shared (['Demand Forecasting', 'Exponential Smoothing', 'Seasonality', 'Time Series'])
+  33_time_series.pdf <-> 35_forecasting.pdf: 4 shared (['ARIMA', 'Seasonality', 'Stationarity', 'Time Series'])
+  35_forecasting.pdf <-> 37_exponential_smoothing.pdf: 4 shared (['ARIMA', 'Exponential Smoothing', 'Seasonality', 'Time Series'])
+  35_forecasting.pdf <-> 39_seasonality.pdf: 4 shared (['ARIMA', 'Prophet', 'Seasonality', 'Time Series'])
+
+================================================================================
+SECTION 3: CATEGORY-LEVEL CONNECTIVITY
+================================================================================
+
+--- Categories and Chunk Counts ---
+  ["Customer & Satisfaction"]: 23 chunks, avg 3.7 entities/chunk
+  ["Market Analysis / Strategy"]: 24 chunks, avg 3.2 entities/chunk
+  ["Pricing Strategy"]: 24 chunks, avg 3.0 entities/chunk
+  ["Product Management / Development"]: 18 chunks, avg 5.3 entities/chunk
+  ["Time Series / Trend"]: 25 chunks, avg 4.6 entities/chunk
+
+--- Cross-Category Connections ---
+  ["Market Analysis / Strategy"] <-> ["Pricing Strategy"]: 36 chunk pairs
+  ["Customer & Satisfaction"] <-> ["Product Management / Development"]: 34 chunk pairs
+  ["Customer & Satisfaction"] <-> ["Market Analysis / Strategy"]: 26 chunk pairs
+  ["Market Analysis / Strategy"] <-> ["Product Management / Development"]: 19 chunk pairs
+  ["Market Analysis / Strategy"] <-> ["Time Series / Trend"]: 12 chunk pairs
+  ["Pricing Strategy"] <-> ["Product Management / Development"]: 8 chunk pairs
+  ["Customer & Satisfaction"] <-> ["Time Series / Trend"]: 6 chunk pairs
+  ["Customer & Satisfaction"] <-> ["Pricing Strategy"]: 4 chunk pairs
+  ["Product Management / Development"] <-> ["Time Series / Trend"]: 3 chunk pairs
+  ["Pricing Strategy"] <-> ["Time Series / Trend"]: 3 chunk pairs
+
+================================================================================
+SECTION 4: SEQUENTIAL CHAIN ANALYSIS (NEXT_CHUNK)
+================================================================================
+  WARNING 01_product_management.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 02_new_product_development.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 03_product_lifecycle.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 04_product_roadmap.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 05_minimum_viable_product.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 06_requirements_engineering.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 07_user_story.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 08_agile_software_development.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 09_customer_satisfaction.pdf: indices=[-1, -1], total_chunks=0, actual=2
+  WARNING 10_customer_experience.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 11_net_promoter_score.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 12_customer_loyalty.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 13_customer_feedback.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 14_churn_rate.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 15_service_quality.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 16_customer_support.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 17_pricing.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 18_pricing_strategies.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 19_price_discrimination.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 20_dynamic_pricing.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 21_penetration_pricing.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 22_price_skimming.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 23_freemium.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 24_psychological_pricing.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 25_market_research.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 26_market_analysis.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 27_competitive_analysis.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 28_swot_analysis.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 29_porters_five_forces.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 30_segmentation_targeting_positioning.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 31_marketing_strategy.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 32_brand_management.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 33_time_series.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 34_trend_analysis.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 35_forecasting.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 36_moving_average.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 37_exponential_smoothing.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 38_arima_model.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 39_seasonality.pdf: indices=[-1, -1, -1], total_chunks=0, actual=3
+  WARNING 40_anomaly_detection.pdf: indices=[-1, -1, -1, -1], total_chunks=0, actual=4
+
+  All 40 documents have sequential NEXT_CHUNK chains
+
+--- Topical Continuity (adjacent chunks sharing entities) ---
+  Total adjacent pairs: 74
+  Pairs sharing entities: 51 (68.9%)
+  Disconnected transitions: 23
+
+  Weak transitions (no shared entities between adjacent chunks):
+    01_product_management.pdf: 01_product_management_000 ['Kano Model', 'MoSCoW Framework', 'Product Backlog', 'RICE Framework'] -> 01_product_management_001 ['Amplitude', 'Customer Acquisition Cost', 'Customer Lifetime Value', 'Daily Active Users', 'Jobs-to-be-Done', 'Mixpanel', 'Monthly Active Users', 'Net Promoter Score', 'OKRs', 'Pendo', 'Product Roadmap', 'Product-Led Growth']
+    02_new_product_development.pdf: 02_new_product_development_000 ['Competitive Analysis', 'Robert Cooper', 'Sprint', 'Stage-Gate Model'] -> 02_new_product_development_001 ['A/B Testing', 'Competitive Intelligence', 'Design Thinking', 'Market Research', 'Net Promoter Score']
+    03_product_lifecycle.pdf: 03_product_lifecycle_000 ['Content Marketing', 'Product Lifecycle', 'Theodore Levitt'] -> 03_product_lifecycle_001 ['BCG Growth-Share Matrix', 'Customer Retention', 'Market Segmentation', 'Value-Based Pricing']
+    09_customer_satisfaction.pdf: 09_customer_satisfaction_000 ['Customer Effort Score', 'Customer Loyalty', 'Customer Satisfaction Score', 'Net Promoter Score', 'Richard Oliver'] -> 09_customer_satisfaction_001 ['Customer Experience', 'Customer Retention', 'Fred Reichheld', 'Service Recovery Paradox', 'Service-Profit Chain']
+    13_customer_feedback.pdf: 13_customer_feedback_000 ['Customer Satisfaction Score', 'Hotjar', 'Intercom', 'Net Promoter Score', 'Pendo', 'Voice of the Customer'] -> 13_customer_feedback_001 ['Brandwatch', 'Capterra', 'Customer Support', 'G2', 'Product Backlog', 'Sprout Social', 'Trustpilot']
+    13_customer_feedback.pdf: 13_customer_feedback_001 ['Brandwatch', 'Capterra', 'Customer Support', 'G2', 'Product Backlog', 'Sprout Social', 'Trustpilot'] -> 13_customer_feedback_002 ['Intercom', 'Net Promoter Score', 'Notion', 'Slack']
+    14_churn_rate.pdf: 14_churn_rate_000 ['Churn Rate', 'Freemium'] -> 14_churn_rate_001 ['ChurnZero', 'Gainsight', 'Net Promoter Score', 'Totango']
+    14_churn_rate.pdf: 14_churn_rate_001 ['ChurnZero', 'Gainsight', 'Net Promoter Score', 'Totango'] -> 14_churn_rate_002 ['Churn Rate']
+    15_service_quality.pdf: 15_service_quality_000 ['SERVQUAL'] -> 15_service_quality_001 ['First Contact Resolution', 'Gaps Model']
+    16_customer_support.pdf: 16_customer_support_000 ['Customer Experience', 'Customer Support'] -> 16_customer_support_001 ['Average Handle Time', 'Customer Satisfaction Score', 'First Contact Resolution', 'Knowledge Base']
+    17_pricing.pdf: 17_pricing_000 ['4Ps Marketing Mix', 'Premium Pricing', 'Reservation Price'] -> 17_pricing_001 ['Cost-Based Pricing', 'Value-Based Pricing']
+    18_pricing_strategies.pdf: 18_pricing_strategies_000 ['Cost-Based Pricing', 'Penetration Pricing', 'Reservation Price', 'Value-Based Pricing'] -> 18_pricing_strategies_001 ['AWS', 'Google Cloud', 'Premium Pricing', 'Subscription Pricing', 'Usage-Based Pricing']
+    18_pricing_strategies.pdf: 18_pricing_strategies_001 ['AWS', 'Google Cloud', 'Premium Pricing', 'Subscription Pricing', 'Usage-Based Pricing'] -> 18_pricing_strategies_002 ['Bundling']
+    24_psychological_pricing.pdf: 24_psychological_pricing_000 ['Amos Tversky', 'Daniel Kahneman', 'Psychological Pricing', 'Richard Thaler'] -> 24_psychological_pricing_001 ['Decoy Pricing', 'Premium Pricing', 'Price Anchoring', 'Subscription Pricing']
+    24_psychological_pricing.pdf: 24_psychological_pricing_001 ['Decoy Pricing', 'Premium Pricing', 'Price Anchoring', 'Subscription Pricing'] -> 24_psychological_pricing_002 ['Prestige Pricing', 'Reservation Price']
+    25_market_research.pdf: 25_market_research_000 ['Competitive Intelligence', 'Market Entry Strategy', 'Market Research'] -> 25_market_research_001 ['Conjoint Analysis', 'Reservation Price']
+    25_market_research.pdf: 25_market_research_001 ['Conjoint Analysis', 'Reservation Price'] -> 25_market_research_002 ['A/B Testing', 'Market Research', 'Total Addressable Market']
+    26_market_analysis.pdf: 26_market_analysis_000 ['Competitive Intelligence', 'Market Entry Strategy', 'Market Research', 'Total Addressable Market'] -> 26_market_analysis_001 ['Customer Lifetime Value', 'PESTEL Analysis', 'Reservation Price', 'Trend Analysis']
+    27_competitive_analysis.pdf: 27_competitive_analysis_000 ['Capterra', 'Competitive Analysis', 'G2', 'Win-Loss Analysis'] -> 27_competitive_analysis_001 ['Competitive Intelligence', 'Product Roadmap']
+    31_marketing_strategy.pdf: 31_marketing_strategy_000 ['4Ps Marketing Mix', '7Ps Framework', 'Product-Led Growth'] -> 31_marketing_strategy_001 ['Content Marketing', 'Customer Retention', 'Fred Reichheld', 'HubSpot', 'Inbound Marketing', 'Loyalty Program']
+    31_marketing_strategy.pdf: 31_marketing_strategy_001 ['Content Marketing', 'Customer Retention', 'Fred Reichheld', 'HubSpot', 'Inbound Marketing', 'Loyalty Program'] -> 31_marketing_strategy_002 ['Customer Acquisition Cost', 'Customer Journey']
+    32_brand_management.pdf: 32_brand_management_001 ['Brand Architecture', 'Brand Equity', 'Google Cloud'] -> 32_brand_management_002 ['Brand Guidelines', 'Brand Management', 'Customer Support']
+    35_forecasting.pdf: 35_forecasting_000 ['Delphi Method', 'Demand Forecasting', 'Market Research'] -> 35_forecasting_001 ['ARIMA', 'Exponential Smoothing', 'LSTM', 'LightGBM', 'Prophet', 'Seasonality', 'Stationarity', 'Time Series', 'XGBoost']
+
+================================================================================
+SECTION 5: SEMANTIC RELATIONSHIP COVERAGE
+================================================================================
+  Defined concept relationships: 59
+  Realized (both endpoints in chunks): 59
+  Unrealized: 0
+
+  Person-Created-Concept links: 25/25 realized
+  Tool-Implements-Concept links: 14/14 realized
+
+================================================================================
+SECTION 6: OVERALL CONNECTIVITY SCORECARD
+================================================================================
+  Entity Coverage (>=3 entities): 75.4%
+  Avg Connections per Chunk: 10.8
+  Isolation Rate: 2.6%
+  Cross-Document Coverage: 23.7%
+  Adjacent Chunk Continuity: 68.9%
+  Semantic Rel. Realization: 100.0%
+
+  OVERALL CONNECTIVITY GRADE: 64.5/100
+  Rating: FAIR

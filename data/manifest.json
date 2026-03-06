@@ -1,0 +1,826 @@
+{
+  "files": {
+    "c751b80e": {
+      "id": "c751b80e",
+      "filename": "01_product_management.pdf",
+      "type": "pdf",
+      "path": "uploads\\01_product_management.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:57:59.985805",
+      "size": 6050
+    },
+    "a67594dc": {
+      "id": "a67594dc",
+      "filename": "02_new_product_development.pdf",
+      "type": "pdf",
+      "path": "uploads\\02_new_product_development.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:57:59.988452",
+      "size": 6249
+    },
+    "25eb41e0": {
+      "id": "25eb41e0",
+      "filename": "03_product_lifecycle.pdf",
+      "type": "pdf",
+      "path": "uploads\\03_product_lifecycle.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:57:59.991818",
+      "size": 6129
+    },
+    "102b142f": {
+      "id": "102b142f",
+      "filename": "04_product_roadmap.pdf",
+      "type": "pdf",
+      "path": "uploads\\04_product_roadmap.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:57:59.994658",
+      "size": 6125
+    },
+    "ace3a41b": {
+      "id": "ace3a41b",
+      "filename": "05_minimum_viable_product.pdf",
+      "type": "pdf",
+      "path": "uploads\\05_minimum_viable_product.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:57:59.997289",
+      "size": 6168
+    },
+    "0d216d74": {
+      "id": "0d216d74",
+      "filename": "06_requirements_engineering.pdf",
+      "type": "pdf",
+      "path": "uploads\\06_requirements_engineering.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.000952",
+      "size": 6294
+    },
+    "86d72ef1": {
+      "id": "86d72ef1",
+      "filename": "07_user_story.pdf",
+      "type": "pdf",
+      "path": "uploads\\07_user_story.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.004164",
+      "size": 6592
+    },
+    "b1d6aecb": {
+      "id": "b1d6aecb",
+      "filename": "08_agile_software_development.pdf",
+      "type": "pdf",
+      "path": "uploads\\08_agile_software_development.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.007605",
+      "size": 6460
+    },
+    "ec5279f6": {
+      "id": "ec5279f6",
+      "filename": "09_customer_satisfaction.pdf",
+      "type": "pdf",
+      "path": "uploads\\09_customer_satisfaction.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.010867",
+      "size": 6416
+    },
+    "b4bdc623": {
+      "id": "b4bdc623",
+      "filename": "10_customer_experience.pdf",
+      "type": "pdf",
+      "path": "uploads\\10_customer_experience.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.014969",
+      "size": 6480
+    },
+    "e5a3c916": {
+      "id": "e5a3c916",
+      "filename": "11_net_promoter_score.pdf",
+      "type": "pdf",
+      "path": "uploads\\11_net_promoter_score.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.019747",
+      "size": 6708
+    },
+    "8aea4314": {
+      "id": "8aea4314",
+      "filename": "12_customer_loyalty.pdf",
+      "type": "pdf",
+      "path": "uploads\\12_customer_loyalty.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.023827",
+      "size": 6634
+    },
+    "932fecee": {
+      "id": "932fecee",
+      "filename": "13_customer_feedback.pdf",
+      "type": "pdf",
+      "path": "uploads\\13_customer_feedback.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.028835",
+      "size": 7010
+    },
+    "d9edfb69": {
+      "id": "d9edfb69",
+      "filename": "14_churn_rate.pdf",
+      "type": "pdf",
+      "path": "uploads\\14_churn_rate.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.034546",
+      "size": 6911
+    },
+    "05f7b7b4": {
+      "id": "05f7b7b4",
+      "filename": "15_service_quality.pdf",
+      "type": "pdf",
+      "path": "uploads\\15_service_quality.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.038227",
+      "size": 7096
+    },
+    "1992143f": {
+      "id": "1992143f",
+      "filename": "16_customer_support.pdf",
+      "type": "pdf",
+      "path": "uploads\\16_customer_support.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.042096",
+      "size": 7056
+    },
+    "e8b9050b": {
+      "id": "e8b9050b",
+      "filename": "17_pricing.pdf",
+      "type": "pdf",
+      "path": "uploads\\17_pricing.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.045556",
+      "size": 6808
+    },
+    "48a689f9": {
+      "id": "48a689f9",
+      "filename": "18_pricing_strategies.pdf",
+      "type": "pdf",
+      "path": "uploads\\18_pricing_strategies.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.049327",
+      "size": 6985
+    },
+    "28ea66d2": {
+      "id": "28ea66d2",
+      "filename": "19_price_discrimination.pdf",
+      "type": "pdf",
+      "path": "uploads\\19_price_discrimination.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.052795",
+      "size": 7056
+    },
+    "b0ab516a": {
+      "id": "b0ab516a",
+      "filename": "20_dynamic_pricing.pdf",
+      "type": "pdf",
+      "path": "uploads\\20_dynamic_pricing.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.056274",
+      "size": 7123
+    },
+    "2fa742d0": {
+      "id": "2fa742d0",
+      "filename": "21_penetration_pricing.pdf",
+      "type": "pdf",
+      "path": "uploads\\21_penetration_pricing.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.059760",
+      "size": 6931
+    },
+    "05542bc7": {
+      "id": "05542bc7",
+      "filename": "22_price_skimming.pdf",
+      "type": "pdf",
+      "path": "uploads\\22_price_skimming.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.063623",
+      "size": 7189
+    },
+    "92e3b38b": {
+      "id": "92e3b38b",
+      "filename": "23_freemium.pdf",
+      "type": "pdf",
+      "path": "uploads\\23_freemium.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.067194",
+      "size": 7025
+    },
+    "17661dac": {
+      "id": "17661dac",
+      "filename": "24_psychological_pricing.pdf",
+      "type": "pdf",
+      "path": "uploads\\24_psychological_pricing.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.070997",
+      "size": 7471
+    },
+    "d1528e10": {
+      "id": "d1528e10",
+      "filename": "25_market_research.pdf",
+      "type": "pdf",
+      "path": "uploads\\25_market_research.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.075167",
+      "size": 6981
+    },
+    "6c1a384a": {
+      "id": "6c1a384a",
+      "filename": "26_market_analysis.pdf",
+      "type": "pdf",
+      "path": "uploads\\26_market_analysis.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.080000",
+      "size": 7234
+    },
+    "06e4cc13": {
+      "id": "06e4cc13",
+      "filename": "27_competitive_analysis.pdf",
+      "type": "pdf",
+      "path": "uploads\\27_competitive_analysis.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.083419",
+      "size": 7004
+    },
+    "d3e24aef": {
+      "id": "d3e24aef",
+      "filename": "28_swot_analysis.pdf",
+      "type": "pdf",
+      "path": "uploads\\28_swot_analysis.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.086805",
+      "size": 7054
+    },
+    "1f2e3c7d": {
+      "id": "1f2e3c7d",
+      "filename": "29_porters_five_forces.pdf",
+      "type": "pdf",
+      "path": "uploads\\29_porters_five_forces.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.090520",
+      "size": 7333
+    },
+    "b3b6d96a": {
+      "id": "b3b6d96a",
+      "filename": "30_segmentation_targeting_positioning.pdf",
+      "type": "pdf",
+      "path": "uploads\\30_segmentation_targeting_positioning.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.093470",
+      "size": 7237
+    },
+    "fc9a6b37": {
+      "id": "fc9a6b37",
+      "filename": "31_marketing_strategy.pdf",
+      "type": "pdf",
+      "path": "uploads\\31_marketing_strategy.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.096332",
+      "size": 7349
+    },
+    "ca9c21a2": {
+      "id": "ca9c21a2",
+      "filename": "32_brand_management.pdf",
+      "type": "pdf",
+      "path": "uploads\\32_brand_management.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.099984",
+      "size": 7497
+    },
+    "31122990": {
+      "id": "31122990",
+      "filename": "33_time_series.pdf",
+      "type": "pdf",
+      "path": "uploads\\33_time_series.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.103669",
+      "size": 7090
+    },
+    "634ceddc": {
+      "id": "634ceddc",
+      "filename": "34_trend_analysis.pdf",
+      "type": "pdf",
+      "path": "uploads\\34_trend_analysis.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.108889",
+      "size": 7318
+    },
+    "e3d128a6": {
+      "id": "e3d128a6",
+      "filename": "35_forecasting.pdf",
+      "type": "pdf",
+      "path": "uploads\\35_forecasting.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.112755",
+      "size": 7323
+    },
+    "041115cf": {
+      "id": "041115cf",
+      "filename": "36_moving_average.pdf",
+      "type": "pdf",
+      "path": "uploads\\36_moving_average.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.117299",
+      "size": 7151
+    },
+    "b25a8670": {
+      "id": "b25a8670",
+      "filename": "37_exponential_smoothing.pdf",
+      "type": "pdf",
+      "path": "uploads\\37_exponential_smoothing.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.121206",
+      "size": 7414
+    },
+    "75e40126": {
+      "id": "75e40126",
+      "filename": "38_arima_model.pdf",
+      "type": "pdf",
+      "path": "uploads\\38_arima_model.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.125528",
+      "size": 7317
+    },
+    "99c31cb9": {
+      "id": "99c31cb9",
+      "filename": "39_seasonality.pdf",
+      "type": "pdf",
+      "path": "uploads\\39_seasonality.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.130452",
+      "size": 8147
+    },
+    "9cf92197": {
+      "id": "9cf92197",
+      "filename": "40_anomaly_detection.pdf",
+      "type": "pdf",
+      "path": "uploads\\40_anomaly_detection.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T14:58:00.135480",
+      "size": 8384
+    },
+    "8912e896": {
+      "id": "8912e896",
+      "filename": "03_review_velocity_anomaly_signatures.pdf",
+      "type": "pdf",
+      "path": "uploads\\03_review_velocity_anomaly_signatures.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:00.598196",
+      "size": 122913
+    },
+    "aa1d2a0b": {
+      "id": "aa1d2a0b",
+      "filename": "04_post_price_hike_sentiment_decay_curves.pdf",
+      "type": "pdf",
+      "path": "uploads\\04_post_price_hike_sentiment_decay_curves.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:01.247633",
+      "size": 122328
+    },
+    "4a38063b": {
+      "id": "4a38063b",
+      "filename": "05_support_ticket_to_crisis_conversion_patterns.pdf",
+      "type": "pdf",
+      "path": "uploads\\05_support_ticket_to_crisis_conversion_patterns.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:02.557252",
+      "size": 209193
+    },
+    "f40bd410": {
+      "id": "f40bd410",
+      "filename": "06_nps_freefall_early_warning_indicators.pdf",
+      "type": "pdf",
+      "path": "uploads\\06_nps_freefall_early_warning_indicators.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:04.113870",
+      "size": 125807
+    },
+    "557fc3ea": {
+      "id": "557fc3ea",
+      "filename": "07_rating_benchmarks_by_price_tier.pdf",
+      "type": "pdf",
+      "path": "uploads\\07_rating_benchmarks_by_price_tier.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:05.437429",
+      "size": 9253
+    },
+    "a1e34ca5": {
+      "id": "a1e34ca5",
+      "filename": "08_warranty_and_support_sla_benchmarks.pdf",
+      "type": "pdf",
+      "path": "uploads\\08_warranty_and_support_sla_benchmarks.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:06.385444",
+      "size": 9578
+    },
+    "83e568c5": {
+      "id": "83e568c5",
+      "filename": "09_competitor_crisis_response_case_studies.pdf",
+      "type": "pdf",
+      "path": "uploads\\09_competitor_crisis_response_case_studies.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:07.338590",
+      "size": 9825
+    },
+    "604d2679": {
+      "id": "604d2679",
+      "filename": "10_category_churn_rate_benchmarks.pdf",
+      "type": "pdf",
+      "path": "uploads\\10_category_churn_rate_benchmarks.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:08.621706",
+      "size": 9492
+    },
+    "cd60b0ae": {
+      "id": "cd60b0ae",
+      "filename": "11_price_sensitivity_benchmarks_india.pdf",
+      "type": "pdf",
+      "path": "uploads\\11_price_sensitivity_benchmarks_india.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T19:29:09.616031",
+      "size": 10014
+    },
+    "4510c3ac": {
+      "id": "4510c3ac",
+      "filename": "06_nps_freefall_early_warning_indicators.pdf",
+      "type": "pdf",
+      "path": "..\\doc_converter\\input_docs\\06_nps_freefall_early_warning_indicators.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T21:40:52.685756",
+      "size": 125807,
+      "converted_path": "processed\\06_nps_freefall_early_warning_indicators_converted.txt"
+    },
+    "6d71bc9c": {
+      "id": "6d71bc9c",
+      "filename": "07_rating_benchmarks_by_price_tier.pdf",
+      "type": "pdf",
+      "path": "..\\doc_converter\\input_docs\\07_rating_benchmarks_by_price_tier.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T22:02:59.393329",
+      "size": 9253,
+      "converted_path": "processed\\07_rating_benchmarks_by_price_tier_converted.txt"
+    },
+    "f034620e": {
+      "id": "f034620e",
+      "filename": "11_price_sensitivity_benchmarks_india.pdf",
+      "type": "pdf",
+      "path": "..\\doc_converter\\input_docs\\11_price_sensitivity_benchmarks_india.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T22:06:08.133618",
+      "size": 10014,
+      "converted_path": "processed\\11_price_sensitivity_benchmarks_india_converted.txt"
+    },
+    "8235aa87": {
+      "id": "8235aa87",
+      "filename": "11_price_sensitivity_benchmarks_india.pdf",
+      "type": "pdf",
+      "path": "uploads\\11_price_sensitivity_benchmarks_india.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T22:14:42.152841",
+      "size": 10014,
+      "converted_path": "processed\\11_price_sensitivity_benchmarks_india_converted.txt"
+    },
+    "09a8a108": {
+      "id": "09a8a108",
+      "filename": "08_warranty_and_support_sla_benchmarks.pdf",
+      "type": "pdf",
+      "path": "uploads\\08_warranty_and_support_sla_benchmarks.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T22:30:35.464773",
+      "size": 9578,
+      "converted_path": "processed\\08_warranty_and_support_sla_benchmarks_converted.txt"
+    },
+    "cb7866b9": {
+      "id": "cb7866b9",
+      "filename": "12_product_launch_gtm_failure_patterns.pdf",
+      "type": "pdf",
+      "path": "uploads\\12_product_launch_gtm_failure_patterns.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T22:59:49.665853",
+      "size": 12370,
+      "converted_path": "processed\\12_product_launch_gtm_failure_patterns_converted.txt"
+    },
+    "264fe18a": {
+      "id": "264fe18a",
+      "filename": "13_return_rate_benchmarks_reverse_logistics.pdf",
+      "type": "pdf",
+      "path": "uploads\\13_return_rate_benchmarks_reverse_logistics.pdf",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-05T23:04:23.276164",
+      "size": 10467,
+      "converted_path": "processed\\13_return_rate_benchmarks_reverse_logistics_converted.txt"
+    },
+    "58e23b9e": {
+      "id": "58e23b9e",
+      "filename": "14_influencer_affiliate_marketing_performance_signals.md",
+      "type": "md",
+      "path": "uploads\\14_influencer_affiliate_marketing_performance_signals.md",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-06T04:38:08.397850",
+      "size": 14704,
+      "converted_path": "processed\\14_influencer_affiliate_marketing_performance_signals_converted.txt"
+    },
+    "62627a87": {
+      "id": "62627a87",
+      "filename": "15_product_roadmap_prioritization_signals.txt",
+      "type": "txt",
+      "path": "uploads\\15_product_roadmap_prioritization_signals.txt",
+      "status": "processed",
+      "components": {
+        "conversion": "success",
+        "semantic": "success",
+        "graph": "success"
+      },
+      "added_at": "2026-03-06T04:46:18.454482",
+      "size": 15644,
+      "converted_path": "processed\\15_product_roadmap_prioritization_signals_converted.txt"
+    }
+  },
+  "last_updated": "2026-03-06T04:46:22.168727"
+}

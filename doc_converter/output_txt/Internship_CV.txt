@@ -1,0 +1,52 @@
+Built internal automation tools using Python + n8n, reducing repetitive manual work.
+Created Workflow Automations and SEO Web Scraping.
+Collaborated with marketing & tech teams to streamline workflows and boost productivity.
+Harish Akshay H
+Aspiring AI/ML Engineer | Building Intelligent & Automated Systems
+I am an aspiring AI & ML Engineer with practical experience building production-ready LLM tools, RAG pipelines, and
+smart automations. Grounded in Python, LangChain, ML algorithms, and problem-solving. Driven, curious, and
+committed to creating real value in fast-moving engineering teams.
+Languages:  Python, Java, SQL
+AI Stack:  LangChain, RAG Systems, LLM Pipelines, Embeddings, Vector DBs
+ML Toolbox:  Feature Engineering, Regression, Classification, Basic Neural Nets
+Build & Automate:  Flask, n8n, Git/GitHub, API Workflows
+Solved 40+ LeetCode problems, improving algorithmic thinking.
+Made initial Open-source contribution on GitHub.
+Participated in TCS CodeVita, LeetCode contests.
+Leadership experience through college & club cricket teams.
+June 2025 - July 2025
+May 2025 - Oct 2025
+EXECUTIVE SUMMARY
+SKILLS
+ACHIEVEMENTS & CONTRIBUTIONS
+HuntYourTribe - SEO Specialist & Automation Intern 
+EXPERIENCE
+PROJECTS
+1.RAG (Retrieval-Augmented Generation) System: AI Project
+Built an end-to-end RAG pipeline for accurate, context-aware Q&A over PDFs and text documents.
+Designed a Flask web interface for smooth interaction and real-time responses.
+Features: Document ingestion, text chunking, embeddings, vector search and similarity retrieval.
+Tech Stack: Python, Flask, LangChain, ChromaDB, Embeddings, Groq/OpenAI APIs
+Built a dashboard that predicts stock trends using regression and classification models.
+Added real-time insights through Telegram alerts and interactive visualizations.
+Tech Stack: Python, Flask/Streamlit, Scikit-Learn, Pandas, Matplotlib, Telegram API
+2. Stock-Trend-Forecasting Dashboard with Telegram Integration
+Oct 2025 - Nov 2025
+Links:
++91 8939359344
+harishakshay2006@gmail.com
+EDUCATIONAL CREDENTIALS
+Rajalakshmi Engineering College - B.Tech. Information Technology (2024–2028)
+Semester 1 CGPA: 8.8 / 10
+Semester 2 CGPA: 9.0 / 10
+CERTIFICATIONS & PUBLICATIONS
+Deep Learning Specialization: Andrew Ng (Coursera) Pursuing
+Machine Learning & AI (Self-Learning Track): Hands-on projects in GPT, RAG systems, and model deployment
+“How I Built a GPT from Scratch at 18”: Technical blog explaining architecture, tokenization, training loops,
+and inference pipeline. (Link)
+“The Invisible Coder”: 5 Steps That Took Me from Hidden Talent to Recognized Brand, Personal blog article
+documenting my early engineering journey, growth mindset, and the process of transforming raw curiosity
+into real technical output. (Link)
+LEADERSHIP & EXTRACURRICULARS
+State probables cricketer (U-16), captained multiple clubs.
+Certified guitarist with 3 Trinity College London grades in music performance.

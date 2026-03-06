@@ -1,0 +1,199 @@
+======================================================================
+KNOWLEDGE GRAPH DIAGNOSTIC REPORT
+======================================================================
+
+--- 1. NODE & RELATIONSHIP COUNTS ---
+  Chunk                  114
+  Concept                 97
+  Document                40
+  Tool                    32
+  Person                  26
+  Category                 5
+
+  MENTIONS_CONCEPT            235
+  CATEGORIZED_AS              154
+  BELONGS_TO                  114
+  NEXT_CHUNK                   74
+  RELATED_TO                   45
+  MENTIONS_TOOL                43
+  MENTIONS_PERSON              31
+  CREATED                      25
+  IMPLEMENTS                   14
+
+  TOTAL: 314 nodes, 735 relationships
+  Avg relationships per node: 2.3
+
+--- 2. ORPHAN NODE ANALYSIS ---
+  NONE - every node has at least one relationship
+
+--- 3. CHUNK ENTITY COVERAGE ---
+  Total chunks:               114
+  With concept mentions:      98 (85%)
+  With person mentions:       20 (17%)
+  With tool mentions:         15 (13%)
+  With ANY entity:            101 (88%)
+  With NO entities:           13 (11%)
+
+  Chunks with NO extracted entities:
+    - 04_product_roadmap_000: What Is a Product Roadmap?
+    - 12_customer_loyalty_000: Defining Customer Loyalty
+    - 16_customer_support_000: What Is Customer Support?
+    - 19_price_discrimination_000: Definition and Economic Basis
+    - 19_price_discrimination_001: Second-Degree Price Discrimination
+    - 19_price_discrimination_002: Second-Degree Price Discrimination
+    - 24_psychological_pricing_002: Anchoring and Decoy Pricing
+    - 25_market_research_000: What Is Market Research?
+    - 27_competitive_analysis_001: Analyzing Competitor Strategies
+    - 27_competitive_analysis_002: Analyzing Competitor Strategies
+    - 32_brand_management_002: Brand Architecture
+    - 33_time_series_000: What Is a Time Series?
+    - 34_trend_analysis_002: Statistical Methods for Trend Detection
+
+--- 4. CONCEPT CONNECTIVITY ---
+  Total concepts:             97
+  With RELATED_TO links:      59 (60%)
+  Isolated concepts:          38 (39%)
+
+  Top 10 most-connected concepts:
+    ARIMA                               (Model     ) - 15 connections
+    Net Promoter Score                  (Metric    ) - 15 connections
+    Seasonality                         (Concept   ) - 14 connections
+    Exponential Smoothing               (Model     ) - 12 connections
+    User Story                          (Concept   ) - 11 connections
+    Sprint                              (Concept   ) - 11 connections
+    Customer Satisfaction Score         (Metric    ) - 10 connections
+    Product Backlog                     (Concept   ) - 9 connections
+    Customer Lifetime Value             (Metric    ) - 8 connections
+    Churn Rate                          (Metric    ) - 8 connections
+
+  Isolated concepts (no RELATED_TO):
+    - [Concept] Autocorrelation
+    - [Concept] Customer Journey
+    - [Concept] Omnichannel
+    - [Concept] Service Recovery Paradox
+    - [Framework] 4Ps Marketing Mix
+    - [Framework] 7Ps Framework
+    - [Framework] Aaker Brand Equity Model
+    - [Framework] CBBE Pyramid
+    - [Framework] Design Thinking
+    - [Framework] Gaps Model
+    - [Framework] Gartner Hype Cycle
+    - [Framework] INVEST Criteria
+    - [Framework] Jobs-to-be-Done
+    - [Framework] Kano Model
+    - [Framework] OKRs
+    - [Framework] PESTEL Analysis
+    - [Framework] Service-Profit Chain
+    - [Framework] Value Net Framework
+    - [Method] Augmented Dickey-Fuller Test
+    - [Method] Conjoint Analysis
+    - [Method] Delphi Method
+    - [Method] Mann-Kendall Test
+    - [Metric] Average Handle Time
+    - [Metric] Daily Active Users
+    - [Metric] Mean Absolute Error
+    - [Metric] Mean Absolute Percentage Error
+    - [Metric] Monthly Active Users
+    - [Metric] Root Mean Squared Error
+    - [Metric] Velocity
+    - [Model] Autoencoder
+    - [Model] MACD
+    - [Model] Prophet
+    - [Model] STL Decomposition
+    - [Strategy] Bundling
+    - [Strategy] Cost-Based Pricing
+    - [Strategy] Premium Pricing
+    - [Strategy] Subscription Pricing
+    - [Strategy] Usage-Based Pricing
+
+--- 5. CROSS-CATEGORY CONNECTIONS ---
+  Cross-category concept bridges: 62
+    Customer & Satisfaction        -> Customer Satisfaction Score <-> Net Promoter Score        -> Product Management / Development
+    Customer & Satisfaction        -> Churn Rate                <-> Net Promoter Score        -> Product Management / Development
+    Customer & Satisfaction        -> Churn Rate                <-> Customer Lifetime Value   -> Product Management / Development
+    Customer & Satisfaction        -> Churn Rate                <-> Customer Lifetime Value   -> Market Analysis / Strategy
+    Customer & Satisfaction        -> Freemium                  <-> Product-Led Growth        -> Product Management / Development
+    Customer & Satisfaction        -> Freemium                  <-> Product-Led Growth        -> Market Analysis / Strategy
+    Customer & Satisfaction        -> Freemium                  <-> Product-Led Growth        -> Pricing Strategy
+    Customer & Satisfaction        -> Product Backlog           <-> User Story                -> Product Management / Development
+    Customer & Satisfaction        -> Product Backlog           <-> RICE Framework            -> Product Management / Development
+    Customer & Satisfaction        -> Product Backlog           <-> MoSCoW Framework          -> Product Management / Development
+    Customer & Satisfaction        -> Customer Lifetime Value   <-> Value-Based Pricing       -> Product Management / Development
+    Customer & Satisfaction        -> Customer Lifetime Value   <-> Customer Acquisition Cost -> Product Management / Development
+    Customer & Satisfaction        -> Customer Lifetime Value   <-> Customer Acquisition Cost -> Market Analysis / Strategy
+    Customer & Satisfaction        -> Customer Lifetime Value   <-> Customer Acquisition Cost -> Pricing Strategy
+    Customer & Satisfaction        -> Customer Lifetime Value   <-> Value-Based Pricing       -> Pricing Strategy
+    Customer & Satisfaction        -> Customer Effort Score     <-> Net Promoter Score        -> Product Management / Development
+    Product Management / Developme -> User Story                <-> Product Backlog           -> Customer & Satisfaction
+    Product Management / Developme -> MVP                       <-> A/B Testing               -> Market Analysis / Strategy
+    Product Management / Developme -> RICE Framework            <-> Product Backlog           -> Customer & Satisfaction
+    Product Management / Developme -> Value-Based Pricing       <-> Customer Lifetime Value   -> Customer & Satisfaction
+
+--- 6. DOCUMENT RICHNESS ---
+    Product Management                       - 2 chunks, 12 concepts
+    Agile Software Development               - 3 chunks, 10 concepts
+    Forecasting                              - 3 chunks, 10 concepts
+    ARIMA Model                              - 3 chunks, 8 concepts
+    Customer Experience                      - 3 chunks, 8 concepts
+    Anomaly Detection                        - 4 chunks, 7 concepts
+    Pricing Strategies                       - 3 chunks, 7 concepts
+    Marketing Strategy                       - 3 chunks, 7 concepts
+    Time Series                              - 3 chunks, 6 concepts
+    User Story                               - 3 chunks, 6 concepts
+
+--- 7. PERSON ATTRIBUTION ---
+  Total persons:              26
+  With CREATED links:         21 (80%)
+  Persons without CREATED links:
+    - Richard Thaler (Behavioral Economics / Nudge Theory)
+    - Amos Tversky (Behavioral Economics)
+    - Robert Brown (Exponential Smoothing)
+    - Ron Jeffries (Three Cs of User Stories)
+    - Spyros Makridakis (M-Competitions)
+
+--- 8. TOOL IMPLEMENTATION ---
+  Total tools:                32
+  With IMPLEMENTS links:      13 (40%)
+  Tools without IMPLEMENTS links:
+    - G2 (Software Review Platform)
+    - Roadmunk (Product Roadmapping)
+    - Intercom (Customer Messaging)
+    - GitHub (Version Control / Development)
+    - Notion (Collaboration)
+    - Brandwatch (Social Listening)
+    - Capterra (Software Review Platform)
+    - Slack (Team Communication)
+    - Trustpilot (Review Platform)
+    - Aha! (Product Roadmapping)
+    - Azure DevOps (DevOps Platform)
+    - Sprout Social (Social Media Management)
+    - Figma (Design Collaboration)
+    - Calendly (Scheduling)
+    - IBM DOORS (Requirements Management)
+    - LightGBM (Machine Learning)
+    - Zoom (Video Conferencing)
+    - Atlassian (Software Development Suite)
+    - Linear (Project Management)
+
+--- 9. GRAPH DENSITY ---
+  Nodes: 314, Edges: 735
+  Density: 0.0075 (typical for knowledge graphs: 0.001-0.01)
+  Average degree: 4.7
+
+--- 10. DATA INTEGRITY ---
+  Chunks without a document:  0
+  Chunks without a category:  0
+  Documents with no chunks:   0
+
+======================================================================
+QUALITY SCORECARD
+======================================================================
+  Chunk entity coverage               [#################...]  88.6%
+  No orphan nodes                     [####################] 100.0%
+  Concept RELATED_TO coverage         [############........]  60.8%
+  Cross-category bridges              [####################] 100.0%
+  Person CREATED coverage             [################....]  80.8%
+  Tool IMPLEMENTS coverage            [########............]  40.6%
+  Document integrity                  [####################] 100.0%
+
+  OVERALL GRAPH QUALITY: 79.5%

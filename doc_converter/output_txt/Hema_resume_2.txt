@@ -1,0 +1,58 @@
+HARISH AKSHAY H
+AI and ML engineer
++91 8939359344
+🌐www.linkedin.com/in/hemalatha-m07 | 🐙https://github.com/
+hemalatha-0307 |
+EXECUTIVE SUMMARY
+Motivated and detail-oriented aspiring Cloud Engineer with hands-
+on experience in cloud computing and service models (IaaS, PaaS,
+SaaS). Proficient in AWS services including S3, EC2, Lambda,
+DynamoDB, Textract, Comprehend, and Bedrock. Skilled at rapidly
+learning emerging technologies and applying them to design
+scalable, automated solutions that integrate AI capabilities and
+solve real-world problems.
+SKILLS
+AWS Services : S3, EC2, Lambda, DynamoDB, Textract,
+Comprehend, QuickSight,
+Bedrock, RDS, VPC, Elastic Beanstalk
+Cloud & DevOps : Cloud Architecture, Deployment, Automation,
+Workflow Optimization,
+Virtualization
+Programming : Python, c, Data Structures
+PROJECTS
+Internshala – Cloud Computing with AWS | May – Jun 2025
+IBM – Introduction to Cloud Computing | Mar – Apr 2025
+Internshala – Cloud Computing with AWS | May – Jun 2025
+IBM – Introduction to Cloud Computing | Mar – Apr 2025
+1.InternEzy - Cloud Intern(Self-Initiated Projects) JUL 2025 -
+Present
+➤ AutoScreen AI – Cloud-Based Resume Screener
+Built an automated resume analysis system using AWS Textract,
+Lambda, DynamoDB, and Comprehend.
+Applied NLP to extract structured candidate information
+(name,email,phone,education,skills,experience).
+Stored parsed results in DynamoDB for fast querying and analytics.
+Reduced manual screening effort by enabling instant, structured
+resume data extraction.
+➤ ML Insights Dashboard using Amazon QuickSight
+Processed Kaggle salary dataset and visualized insights using AWS
+QuickSight.
+Created interactive dashboards with ML-powered analysis for
+decision-making.
+2.Internshala - Cloud Intern(Self-Initiated Projects) MAY - JUN
+2025
+➤ Multi OS Application Hosting on AWS EC2
+Deployed and hosted a static web app on Linux and Windows EC2
+instances.
+Configured servers to explore scalability and reliability in cross-OS
+hosting.
+➤ Static Website Deployment using AWS S3
+Deployed a static website using AWS S3 and mapped it to a custom
+domain via
+InfinityFree.
+Showcased cloud deployment skills with zero-cost hosting.
+EDUCATION
+B.Tech in Information Technology 2024-2028(Expected)
+Rajalakshmi Engineering college,Chennai
+• CGPA : 9.35(Sem 1), 9.45(Sem 2)
+CERTIFICATIONS

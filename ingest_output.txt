@@ -1,0 +1,177 @@
+﻿[Semantic Memory] ChromaDB initialized ù 114 existing embeddings
+Clearing existing embeddings...
+[Semantic Memory] Collection cleared
+Found 40 files in DATASET
+
+  01_product_management.pdf: 2 chunks, words: [251, 390]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 2
+  02_new_product_development.pdf: 2 chunks, words: [275, 381]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 4
+  03_product_lifecycle.pdf: 2 chunks, words: [283, 395]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 6
+  04_product_roadmap.pdf: 2 chunks, words: [254, 394]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 8
+  05_minimum_viable_product.pdf: 2 chunks, words: [285, 426]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 10
+  06_requirements_engineering.pdf: 2 chunks, words: [297, 400]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 12
+  07_user_story.pdf: 3 chunks, words: [324, 254, 249]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 15
+  08_agile_software_development.pdf: 3 chunks, words: [286, 230, 238]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 18
+  09_customer_satisfaction.pdf: 2 chunks, words: [320, 428]
+[Semantic Memory] Storing 2 chunks...
+[Semantic Memory] Embeddings: 2/2
+[Semantic Memory] Stored 2 chunks ù total: 20
+  10_customer_experience.pdf: 3 chunks, words: [300, 227, 238]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 23
+  11_net_promoter_score.pdf: 3 chunks, words: [323, 232, 224]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 26
+  12_customer_loyalty.pdf: 3 chunks, words: [333, 244, 241]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 29
+  13_customer_feedback.pdf: 3 chunks, words: [338, 251, 241]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 32
+  14_churn_rate.pdf: 3 chunks, words: [361, 265, 260]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 35
+  15_service_quality.pdf: 3 chunks, words: [357, 261, 244]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 38
+  16_customer_support.pdf: 3 chunks, words: [348, 246, 259]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 41
+  17_pricing.pdf: 3 chunks, words: [377, 256, 267]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 44
+  18_pricing_strategies.pdf: 3 chunks, words: [358, 262, 259]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 47
+  19_price_discrimination.pdf: 3 chunks, words: [374, 263, 252]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 50
+  20_dynamic_pricing.pdf: 3 chunks, words: [362, 264, 269]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 53
+  21_penetration_pricing.pdf: 3 chunks, words: [372, 268, 258]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 56
+  22_price_skimming.pdf: 3 chunks, words: [385, 275, 270]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 59
+  23_freemium.pdf: 3 chunks, words: [402, 264, 277]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 62
+  24_psychological_pricing.pdf: 3 chunks, words: [389, 327, 316]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 65
+  25_market_research.pdf: 3 chunks, words: [306, 262, 241]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 68
+  26_market_analysis.pdf: 3 chunks, words: [361, 253, 264]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 71
+  27_competitive_analysis.pdf: 3 chunks, words: [335, 268, 258]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 74
+  28_swot_analysis.pdf: 3 chunks, words: [345, 259, 260]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 77
+  29_porters_five_forces.pdf: 3 chunks, words: [377, 286, 329]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 80
+  30_segmentation_targeting_positioning.pdf: 3 chunks, words: [363, 275, 292]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 83
+  31_marketing_strategy.pdf: 3 chunks, words: [364, 320, 264]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 86
+  32_brand_management.pdf: 3 chunks, words: [389, 307, 273]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 89
+  33_time_series.pdf: 3 chunks, words: [387, 277, 268]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 92
+  34_trend_analysis.pdf: 3 chunks, words: [385, 258, 277]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 95
+  35_forecasting.pdf: 3 chunks, words: [363, 285, 279]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 98
+  36_moving_average.pdf: 3 chunks, words: [408, 226, 415]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 101
+  37_exponential_smoothing.pdf: 3 chunks, words: [442, 221, 408]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 104
+  38_arima_model.pdf: 3 chunks, words: [436, 281, 283]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 107
+  39_seasonality.pdf: 3 chunks, words: [424, 303, 300]
+[Semantic Memory] Storing 3 chunks...
+[Semantic Memory] Embeddings: 3/3
+[Semantic Memory] Stored 3 chunks ù total: 110
+  40_anomaly_detection.pdf: 4 chunks, words: [237, 228, 229, 412]
+[Semantic Memory] Storing 4 chunks...
+[Semantic Memory] Embeddings: 4/4
+[Semantic Memory] Stored 4 chunks ù total: 114
+
+============================================================
+VALIDATION REPORT
+============================================================
+
+All chunks valid.
+
+Total chunks    : 114
+Avg word count  : 305.3
+Min word count  : 221
+Max word count  : 442
+Unique articles : 40

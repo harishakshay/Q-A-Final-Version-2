@@ -1,0 +1,83 @@
+# Architecture Overview: Intelligent System
+
+The **Intelligent System** is a personalized AI memory and reasoning platform designed to manage WordPress content, analyze performance metrics, and generate strategic insights using a multi-layered data architecture.
+
+## System Architecture Diagram
+
+```mermaid
+graph TD
+    subgraph "Frontend (Dashboard)"
+        UI[Web UI / HTML/JS]
+    end
+
+    subgraph "Backend (Flask)"
+        API[Flask API - app.py]
+        Pipe[Memory Pipeline - pipeline.py]
+    end
+
+    subgraph "Data Acquisition Layers"
+        WP[WordPress Fetcher - content_layer.py]
+        Perf[Performance Tracker - performance_layer.py]
+    end
+
+    subgraph "Memory Storage Engines"
+        Chroma[ChromaDB - semantic_memory.py]
+        Neo4j[(Neo4j Knowledge Graph - knowledge_graph.py)]
+    end
+
+    subgraph "Reasoning & Intelligence"
+        AI[Reasoning Engine - reasoning_engine.py]
+    end
+
+    %% Flow
+    UI <--> API
+    API --> Pipe
+    Pipe --> WP
+    Pipe --> Perf
+    WP --> Chroma
+    WP --> Neo4j
+    Perf --> Neo4j
+    Perf --> Chroma
+    Chroma --> AI
+    Neo4j --> AI
+    AI --> API
+```
+
+## Core Components
+
+### 1. API & Orchestration
+- **Flask Backend ([app.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/app.py))**: The central hub that serves the dashboard and provides REST endpoints for manual triggers and status monitoring.
+- **Pipeline Orchestrator ([pipeline.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/pipeline.py))**: Manages the multi-stage ingestion process, ensuring data flows correctly from sources to storage and reasoning.
+
+### 2. Data Acquisition Layers
+- **Content Layer ([content_layer.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/content_layer.py))**: Connects to the WordPress REST API to fetch posts, cleans HTML, and structures content into memory objects.
+- **Performance Layer ([performance_layer.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/performance_layer.py))**: Processes uploaded CSV files (e.g., from GSC or GA4) to extract metrics, calculate **Health Scores**, and flag **Content Decay**.
+
+### 3. Memory Storage Engines
+- **Semantic Memory ([semantic_memory.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/semantic_memory.py))**: Utilizes **ChromaDB** and **OpenAI Embeddings** to store content vectors, enabling similarity search and cluster detection.
+- **Knowledge Graph ([knowledge_graph.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/knowledge_graph.py))**: Uses **Neo4j** to map relationships between articles, topics (categories/tags), and clusters, providing a structural view of the "content web".
+
+### 4. Reasoning & Intelligence
+- **Reasoning Engine ([reasoning_engine.py](file:///c:/Users/haris/OneDrive/Desktop/Intelligent%20System/reasoning_engine.py))**: Powered by **Groq (Llama 3)** and **LangChain**. It analyzes data from both ChromaDB and Neo4j to:
+    - Identify decaying content.
+    - Suggest specific updates and action items.
+    - Reveal "weak clusters" in the topic map.
+    - Recommend internal cross-linking opportunities.
+
+## Tech Stack
+| Category | Technology |
+| :--- | :--- |
+| **Backend** | Python, Flask |
+| **Orchestration** | Custom Pipeline, Schedule |
+| **Vector DB** | ChromaDB |
+| **Graph DB** | Neo4j Community Edition |
+| **Embeddings** | OpenAI (`text-embedding-3-small`) |
+| **LLM Inference** | Groq (`llama-3.3-70b-versatile`) |
+| **Frontend** | Vanilla JS, CSS, HTML |
+
+## Data Flow
+1. **Fetch**: WordPress content is pulled and converted to structured JSON.
+2. **Metrics**: CSVs are uploaded; metrics are fuzzy-matched to posts to compute health scores.
+3. **Embed**: Content is converted to vectors and stored in ChromaDB.
+4. **Relate**: Links, categories, and clusters are projected into Neo4j.
+5. **Reason**: The AI analyzes the combined memory to generate strategic reports.

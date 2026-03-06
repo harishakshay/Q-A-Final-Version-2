@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  background: #0a0a23;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #00eaff;
+  text-shadow: 0 2px 16px #00eaff44;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  color: #6ee7ff;
+  margin-top: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.card {
+  background: rgba(20, 30, 60, 0.7);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 #00eaff22;
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+  min-width: 320px;
+  max-width: 400px;
+  margin: 0.5rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 12px 40px 0 #00eaff55;
+  transform: translateY(-4px) scale(1.02);
+}
+
+.upload-area {
+  border: 2px dashed #00eaff;
+  border-radius: 16px;
+  background: rgba(10, 20, 40, 0.6);
+  padding: 2rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.upload-area.dragover {
+  border-color: #00ffb3;
+  background: rgba(0, 234, 255, 0.1);
+}
+
+.upload-icon {
+  font-size: 2.5rem;
+  color: #00eaff;
+  margin-bottom: 1rem;
+}
+
+.supported-formats {
+  color: #6ee7ff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.convert-btn {
+  background: linear-gradient(90deg, #00eaff 0%, #007cf0 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 12px #00eaff44;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.convert-btn:hover {
+  background: linear-gradient(90deg, #00ffb3 0%, #00eaff 100%);
+  box-shadow: 0 4px 24px #00eaff88;
+  transform: scale(1.04);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #1a1a2e;
+  border-radius: 8px;
+  margin: 1.2rem 0 0.5rem 0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #00eaff33;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #00eaff 0%, #00ffb3 100%);
+  width: 0%;
+  border-radius: 8px;
+  transition: width 0.4s cubic-bezier(.4,2,.6,1);
+}
+
+.status-message {
+  color: #6ee7ff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  min-height: 1.2em;
+}
+
+.files-section {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.file-list {
+  background: rgba(20, 30, 60, 0.7);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px #00eaff22;
+  padding: 1rem 1.5rem;
+  min-width: 220px;
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.file-list-title {
+  color: #00eaff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.3rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.file-item:hover {
+  background: rgba(0, 234, 255, 0.08);
+}
+
+.file-icon {
+  font-size: 1.3rem;
+  color: #00eaff;
+}
+
+.file-meta {
+  flex: 1;
+}
+
+.file-name {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Inter', monospace;
+  font-weight: 500;
+}
+
+.file-time {
+  color: #6ee7ff;
+  font-size: 0.85rem;
+}
+
+.file-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.open-btn, .download-btn {
+  background: none;
+  border: 1.5px solid #00eaff;
+  color: #00eaff;
+  border-radius: 8px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.95rem;
+  font-family: 'Inter', monospace;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.open-btn:hover, .download-btn:hover {
+  background: #00eaff;
+  color: #0a0a23;
+  border-color: #00ffb3;
+}
+
+.preview-panel {
+  background: rgba(20, 30, 60, 0.8);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px #00eaff22;
+  padding: 1.5rem;
+  min-width: 340px;
+  max-width: 600px;
+  min-height: 320px;
+  max-height: 420px;
+  overflow-y: auto;
+  margin: 0.5rem;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  color: #fff;
+  font-size: 1rem;
+  border: 1.5px solid #00eaff33;
+}
+
+@media (max-width: 900px) {
+  .main-container, .files-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card, .preview-panel {
+    min-width: 90vw;
+    max-width: 98vw;
+  }
+}

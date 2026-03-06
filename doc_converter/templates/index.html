@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doc Converter</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="app-title">Doc Converter</div>
+    <div class="app-subtitle">AI Powered Document Format Converter</div>
+  </div>
+  <div class="main-container">
+    <div class="card">
+      <div id="upload-area" class="upload-area">
+        <div class="upload-icon">⬆️</div>
+        <div class="supported-formats">Supported: .txt, .md, .pdf</div>
+        <input type="file" id="file-input" accept=".txt,.md,.pdf" style="display:none">
+        <button id="convert-btn" class="convert-btn">Convert Document</button>
+      </div>
+      <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+      <div id="status-message" class="status-message"></div>
+    </div>
+    <div class="files-section">
+      <div class="file-list" style="min-width:220px;">
+        <div class="file-list-title">Uploaded Files</div>
+        <div id="uploaded-files"></div>
+      </div>
+      <div class="file-list" style="min-width:220px;">
+        <div class="file-list-title">Converted Files</div>
+        <div id="converted-files"></div>
+      </div>
+    </div>
+    <div id="preview-panel" class="preview-panel" style="margin-top:2rem;min-height:320px;max-height:420px;overflow-y:auto;"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
