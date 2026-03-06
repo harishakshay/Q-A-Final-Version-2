@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Databases & Data
+data/chromadb/
+data/processed/
+data/uploads/
+data/content_memory.json
+data/performance_memory.json
+data/insights_report.json
+data/pages_metadata.json
+data/manifest.json
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating System
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+/tmp/
+*.html
+convert_docs.py
+test_qa.py
+test_scores.py
+analyze_connectivity.py
